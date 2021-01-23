@@ -1,6 +1,6 @@
 {
   "name": "@domain.js/redis",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "domain.js redis 通用模块",
   "main": "index.js",
   "scripts": {
@@ -20,5 +20,8 @@
   "homepage": "https://github.com/domain-js/redis#readme",
   "devDependencies": {
     "jest": "^24.9.0"
+  },
+  "dependencies": {
+    "ioredis": "^4.19.4"
   }
 }
